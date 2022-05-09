@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+*{
+margin:0;
+padding:0;
+}
+
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 100%;
+}
+
+.sale h5 {
+    padding: 38px 0 0 0;
+    text-align: center;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+
+span.clr {
+    color: orange;
+}
+
+.header25 img :hover{
+ background-color: orange;
+}
+
+.liststyle li {
+    list-style: none;
+    /* font-size: 20px; */
+    display: inline-block;
+}
+.header25 img {
+    width: 28px;
+    padding: 21px 0px 0px  0px;
+}
+.backoundimg {
+    margin: 10px 0 0 0;
+}
+
+.imgdownload{
+  width: 40px;
+}
+.liststyle {
+    text-align: end;
+    padding: 12px 0px 0px 0px;
+}
+li.singin {
+    padding: 17px 12px 4px 4px;
+}
+
+li.singin:hover{
+cursor: pointer;
+color:orange;
+}
+
+button.btn.btn-primary {
+    position: absolute;
+    content: "";
+    top: 0;
+    /* bottom: 0; */
+    right: -2;
+    padding: 0px 4px 0px 2px;
+    margin: 14px 0 0 0;
+}
+
+.liststylesecond li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 22px 0 0;
+}
+
+li.imgdownload {
+    padding: 16px 0px 0 0;
+}
+
+.liststylesecond li:hover{
+  color: orange;
+}
+.mainheader2 {
+    background-color: #221a1ab0;
+    padding: 20px 0 0 0;
+}
+
+li.iconimg {
+    width: 30px;
+    opacity: 81px;
+    z-index: 0;
+}
+ul, li {
+    display: inline-flex;
+}
+.liststyleend {
+    padding: 8px 0 0 0;
+}
+.headercontent {
+    padding: 8px 0 0 0;
+}
+
+.headerlogo img {
+    width: 150px;
+    padding: 16px 0 0 0;
+}
+
+.swiperslder h2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.swiperslder {
+    padding: 90px 0 0 40px;
+    background-color: orange;
+    height: 440px;
+}
+
+.butttons button.text {
+    height: 30px;
+    width: 110px;
+    border: none;
+    color: orange;
+}
+
+.backoundimg {
+    background-image: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.contntimg {
+    background-image: url(../images/cat_banner_img03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 232px;
+    position: relative;
+    margin: 10px 0 0 0;
+}
+.dions{
+    content: "";
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 72px;
+    color: #fff;
+}
+.cntentimg {
+    background-image: url(../images/cat_banner_img02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    width: 200px;
+    position: relative;
+    position: relative;
+    margin: 10px 0 0 0;
+    /* padding: 5px 5px 0 0; */
+}
+.contimg {
+    content: "";
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 72px;
+    color: #fff;
+}
+
+.edtions {
+    content: "";
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 72px;
+    color: #fff;
+}
+
+.butttons {
+    padding: 15px 0 0 -1px;
+    padding: 33px 0 0 0;
+}
+.butttons button.text {
+    height: 30px;
+    width: 110px;
+    border: none;
+    color: orange;
+    padding: 1px 0 0 0;
+}
+
+
+
+      /* body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } */
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+        background: #000;
+      }
+
+      .swiper-slide {
+        font-size: 18px;
+        color: #fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+      }
+
+      .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .swiper-slide .title {
+        font-size: 41px;
+        font-weight: 300;
+      }
+
+      .swiper-slide .subtitle {
+        font-size: 21px;
+      }
+
+      .swiper-slide .text {
+        font-size: 14px;
+        max-width: 400px;
+        line-height: 1.3;
+      }
